@@ -15,7 +15,11 @@ import {
   MdFormatAlignRight,
   MdFormatAlignJustify,
   // MdDeleteOutline,
-  // MdImage,
+  MdImage,
+  MdDelete,
+  MdLink,
+  MdLinkOff,
+  MdOutlineSmartButton,
 } from 'react-icons/md'
 
 {
@@ -63,6 +67,16 @@ export const Icon = forwardRef(({ className, name, children, ...props }: PropsWi
         return <MdFormatAlignRight />
       case 'format_align_justify':
         return <MdFormatAlignJustify />
+      case 'image':
+        return <MdImage />
+      case 'delete':
+        return <MdDelete />
+      case 'link':
+        return <MdLink />
+      case 'link_off':
+        return <MdLinkOff />
+      case 'smart_button':
+        return <MdOutlineSmartButton />
     }
   }
   return (

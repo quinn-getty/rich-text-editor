@@ -14,7 +14,9 @@
     "@emotion/css": "^11.11.2",
     "@mui/icons-material": "^5.14.6",
     "escape-html": "^1.0.3",
+    "image-extensions": "^1.1.0",
     "is-hotkey": "^0.2.0",
+    "is-url": "^1.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "@types/escape-html": "^1.0.2",
+    "@types/is-url": "^1.2.30",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
